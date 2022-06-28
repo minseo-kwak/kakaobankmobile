@@ -1,0 +1,105 @@
+.inner {
+    width: 360px;
+    padding: 0 18px;
+    margin: auto;
+}
+.a-center {
+    text-align: center;
+}
+
+.visual {
+    height: 386px;
+    background-color: #333;
+    background-image: url(../images/bg_main_3.jpg);
+    background-size: cover;
+    background-position: center;
+
+    color: #fff;
+}
+.visual h2 {
+    padding-top: 127px;
+    font-size: 30px;
+    line-height: 1.3;
+}
+.visual p {
+    padding-top: 28px;
+    display: flex;
+    width: 254px;
+    margin: auto;
+    justify-content: space-between;
+}
+.visual p a {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 122px;
+    height: 45px;
+}
+.visual p i {
+    display: inline-block;
+    width: 18px;
+    height: 20px;
+    margin-right: 8px;
+}
+.visual p i.google {
+    background-position: 0 -119px;
+}
+.visual p i.apple {
+    background-position: -18px -119px;
+}
+
+section > div {
+    padding-top: 60px;
+}
+section h3 {
+    font-size: 24px;
+    line-height: 1.35;
+}
+section p {
+    font-size: 13px;
+    color: #696969;
+    line-height: 1.5;
+    padding-top: 20px;
+}
+section img {
+    margin-top: 30px;
+}
+
+.con2, .con6 {
+    background-color: #f7f7f7;
+}
+.con4 {
+    background-color: #559cde;
+}
+
+.con1 {
+    padding-bottom: 60px;
+}
+.con2 {
+    position: relative;
+}
+.con2 .more {
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    width: 100%;
+}
+.con2 .more a {
+    width: 224px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+    line-height: 40px;
+    color: #003f85;
+    font-weight: bold;
+    border: 1px solid #b5baba;
+}
+.con4 h3, .con4 p {
+    color: #fff;
+}
+

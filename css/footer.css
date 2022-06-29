@@ -1,0 +1,33 @@
+footer {
+    padding: 22px 18px;
+    background-color: #eaeaea;
+}
+footer ul {
+    display: flex;
+    padding-bottom: 18px;
+    font-size: 13px;
+}
+footer ul li {
+    padding-right: 10px;
+}
+footer ul li a::after {
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 10px;
+    background-color: #333;
+    margin-left: 10px;
+}
+footer ul li:last-child a::after {
+    display: none;
+}
+footer p {
+    color: #333;
+}
+footer p a {
+    display: inline-block;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    padding: 2px;
+    margin-left: 14px;
+}

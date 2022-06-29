@@ -1,0 +1,55 @@
+section h2 {
+    font-size: 16px;
+    padding: 18px 0;
+    border-bottom: 1px solid #f6f6f6;
+    margin: 0 14px;
+}
+section > div {
+    padding-top: 34px;
+}
+section > div h3 {
+    font-size: 20px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+}
+section > div p {
+    line-height: 1.5;
+    padding: 0px 16px 16px 16px;
+}
+
+.con1 .slide {
+    height: 146px;
+    overflow: hidden;
+    position: relative;
+}
+.con1 .slide ul {}
+.con1 .slide ul li {}
+.con1 .slide ul li p {}
+.con1 .slide ul li p.mess {}
+.con1 .slide ul li p.mess span {}
+.con1 .slide ul li p.pages {}
+.con1 .slide ul li p.pages span {}
+.con1 .slide .btns {
+    position: absolute;
+    top: 36%;
+    left: 0;
+    width: 100%;
+    color: #fff;
+
+    display: flex;
+    justify-content: space-between;
+}
+.con1 .slide .btns .btn_prev {
+    background-position: -78px -113px;
+    width: 25px;
+    height: 48px;
+}
+.con1 .slide .btns .btn_next {
+    background-position: -53px -113px;
+    width: 25px;
+    height: 48px;
+}
+
+.con2 {}
+.con3 {}
+.con4 {}

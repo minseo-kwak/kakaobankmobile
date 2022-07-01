@@ -85,7 +85,7 @@
         </div>
 
         <div class="con2">
-          <h3>브랜드 영상</h3>
+          <h3 class="center">브랜드 영상</h3>
           <div class="swiper mySwiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
@@ -160,13 +160,13 @@
         </div>
 
         <div class="con3">
-          <h3>BI 소개</h3>
+          <h3 class="center">BI 소개</h3>
           <div class="symbol">
             <img src="images/bi1.png" alt="symbol">
             <p class="tit">Symbol</p>
             <p class="txt">내가 (I) 중심이 되는 은행 (B)을 형상화한 심볼</p>
           </div>
-          <div class="symbol">
+          <div class="wordmark">
             <img src="images/bi2.png" alt="wordmark">
             <p class="tit">Wordmark</p>
             <p class="txt">카카오의 고객중심 DNA를 반영한 워드마크</p>
@@ -175,10 +175,10 @@
         <div class="con4">
           <h3 class="hide">SNS 모음</h3>
           <ul>
-            <li><a href="#">페이스북</a></li>
-            <li><a href="#">블로그</a></li>
-            <li><a href="#">네이버</a></li>
-            <li><a href="#">유튜브</a></li>
+            <li><a href="#" class="bgico fa">페이스북</a></li>
+            <li><a href="#" class="bgico bl">블로그</a></li>
+            <li><a href="#" class="bgico na">네이버</a></li>
+            <li><a href="#" class="bgico yo">유튜브</a></li>
           </ul>
         </div>
       </section>
@@ -198,14 +198,16 @@
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="js/common.js"></script>
+  <script src="js/sub1.js"></script>
+
   <!-- Swiper JS -->
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   
   <!-- Initialize Swiper -->
   <script>
     var swiper = new Swiper('.mySwiper', {
-      slidesPerView: 3,
-      spaceBetween: 30,
+      slidesPerView: 2.5,
+      spaceBetween: 8,
       pagination: {
         el: '.swiper-pagination',
         clickable: true,
